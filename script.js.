@@ -1,0 +1,4 @@
+// Beispiel für ein einfaches Skript
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Willkommen bei Xeonos Front!");
+});
