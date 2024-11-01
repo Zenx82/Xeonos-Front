@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Spenden</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Unterstütze unser Projekt</h1>
+    </header>
+    <main>
+        <p>Wenn du unser Projekt unterstützen möchtest, freuen wir uns über jede Spende. Klicke auf den Button unten, um zu spenden.</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+            <input type="hidden" name="cmd" value="_donations">
+            <input type="hidden" name="business" value="DEINE_EMAIL@BEISPIEL.COM">
+            <input type="hidden" name="item_name" value="Unterstütze unser Projekt">
+            <input type="hidden" name="currency_code" value="EUR">
+            <input type="submit" value="Jetzt spenden" style="padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Xeonos Front. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
